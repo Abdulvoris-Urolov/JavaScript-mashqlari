@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yangi_1.2.2-vazifa</title>
+</head>
+<body>
+<script type="text/javascript">
+	let box = {
+            shim : "100" , 
+            romolcha : "200" , 
+            futbolka : "300"  
+	};
+	function cashRegister(price){
+		let value=0;
+        for(key in price){
+		value +=+price[key];
+		}
+		return console.log(value);
+	}
+	console.log(cashRegister(box));
+</script>
+</body>
+</html>

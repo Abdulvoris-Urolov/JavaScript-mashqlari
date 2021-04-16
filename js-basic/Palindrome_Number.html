@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Palindrome_Number</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let son ='131';
+		let number=function (pol) {
+			for(let i=0; i<pol.length; i++){
+				if(pol[i] !== pol.length-1-i){
+					return false;
+				}
+				else{
+					return true;
+				}
+			}	
+		}
+		console.log(number(son));
+	</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiples</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		let a=+prompt("kirit","musbat son");
+		let b = 0;
+		let c = 0;
+
+		for (let i = 0; i < a; i+=3) 
+		{
+			if (i%5==0) { i +=3; }
+			b += i;
+		}
+		for (let j = 0; j < a; j += 5)
+		{
+			c += j;
+		}
+		alert(`${(b + c)}`);
+	</script>
+</body>
+</html>

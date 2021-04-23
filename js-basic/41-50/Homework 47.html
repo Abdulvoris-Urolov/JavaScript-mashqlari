@@ -6,9 +6,9 @@
 <body>
 	<script type="text/javascript">
 
-function phoneticLookup(val) {
+function phoneticLookup() {
   var result = "";
-val = {
+	let val = {
     "alpha" : "Adams",
 	"bravo" : "Boston",
 	"charlie" : "Chicago",
@@ -16,7 +16,7 @@ val = {
 	"echo" : "Easy",
 	"foxtrot" : "Frank"
   };
-  return result;
+  return val;
 }
 
 console.log(phoneticLookup("charlie"));

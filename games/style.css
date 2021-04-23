@@ -1,0 +1,67 @@
+*{margin: 0px auto; padding: 0px;}
+
+#boshi
+{
+	border: 1px solid black;
+	width: 800px;
+	height: 600px;
+	background: radial-gradient(at center bottom, #1c909a, #044084, #05111f);
+}
+#ikkinchi
+{
+	border-image-width: 20px;
+	text-align: center;
+	/*border: 1px solid green;*/
+	border-radius: 20px;
+	width: 500px;
+	height: 500px;
+	margin-top: 40px;
+	background: linear-gradient(to right bottom, #1c909a, #044084, #05111f);
+	box-shadow: 0px 0px 40px #05111f;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-position: 20px 20px;
+}
+#uchinchi
+{
+	/*border: 1px solid red;*/
+	border-radius: 5px;
+	width: 400px;
+	height: 300px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 10px black;
+}
+button
+{
+	display: block;
+	width: 100px;
+	height: 40px;]
+	border-radius: 1px;
+	background: linear-gradient(to right bottom, #1c9a, #0484, #051f);
+}
+#con
+{
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin-left:  160px;
+	padding-top: 12px;
+	font-size: 30px;
+}
+input[ type="number"]
+{
+	text-align: center; 
+	display: block;
+	margin: 50px 110px;
+	width: 180px;
+	height: 20px;
+	border-radius: 5px;
+	background: linear-gradient(to right bottom, #05f, #1c232c, #084 );
+	text-decoration-color: black;
+	float: left;
+}
+h2{
+	text-shadow: 0pt 0pt 6pt red;
+	text-decoration-line: unset;
+}

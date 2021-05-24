@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+zwsn <!DOCTYPE html>
 <html>
 <head>
 	<title>5 vazifa</title>

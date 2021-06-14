@@ -1,8 +1,8 @@
 let githubUrl = 'https://api.github.com/users/Abdulvorisjs';
 
-function getGithubUser(url) {
-    return fetch(url)
-    .then((response) => {
+let h = async function getGithubUser(url) {
+    await fetch(url)
+    .await((response) => {
         if (response.status == 200){
             return response.json();
         } else {
@@ -12,7 +12,7 @@ function getGithubUser(url) {
 }
 
 getGithubUser(githubUrl)
-.then((res) => {
+.await((res) => {
     console.log(res);
 })
-.catch(console.log());
+.await(console.log());
